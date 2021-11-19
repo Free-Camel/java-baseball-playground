@@ -1,26 +1,43 @@
-## [NEXTSTEP 플레이그라운드의 미션 진행 과정](https://github.com/next-step/nextstep-docs/blob/master/playground/README.md)
+## 피드백 및 공부할 내용
 
 ---
-## 학습 효과를 높이기 위해 추천하는 미션 진행 방법
 
----
-1. 피드백 강의 전까지 미션 진행 
-> 피드백 강의 전까지 혼자 힘으로 미션 진행. 미션을 진행하면서 하나의 작업이 끝날 때 마다 add, commit
-> 예를 들어 다음 숫자 야구 게임의 경우 0, 1, 2단계까지 구현을 완료한 후 push
-
-![mission baseball](https://raw.githubusercontent.com/next-step/nextstep-docs/master/playground/images/mission_baseball.png)
-
----
-2. 피드백 앞 단계까지 미션 구현을 완료한 후 피드백 강의를 학습한다.
-
----
-3. Git 브랜치를 master 또는 main으로 변경한 후 피드백을 반영하기 위한 새로운 브랜치를 생성한 후 처음부터 다시 미션 구현을 도전한다.
+1. 미션
 
 ```
-git branch -a // 모든 로컬 브랜치 확인
-git checkout master // 기본 브랜치가 master인 경우
-git checkout main // 기본 브랜치가 main인 경우
-
-git checkout -b 브랜치이름
-ex) git checkout -b apply-feedback
+2021. 8. 17.
+> 공백이 없는 경우도 연산이 될 수 있게끔 구현
+> 0으로 나누는 것에 대한 예외처리 코드 삽입
 ```
+
+2. 코드리뷰
+
+```
+2021. 8. 17.
+1. 바디가 한 줄인 경우의 메서드여도 중괄호를 넣어주는 게 가독성이 좋음.
+2. 변수나 메서드 네이밍을 할 때 길더라도 이해할 수 있는 이름으로 설정.
+3. 메서드명은 동사로 시작하되 이해할 수 있게끔.
+4. 하나의 소스파일에 하나의 클래스
+5. 인스턴스 변수 중 지역변수로 선언할 수 있는 것들은 지역변수로 선언.
+```
+
+3. 공부거리
+
+```
+2021. 8. 17.
+1. JAVA CODE CONVENTION
+2. GIT COMMIT CONVENTION
+3. ENUM / 람다 / 함수형 인터페이스
+```
+
+4. intelliJ 단축키
+
+```
+1. 일괄 수정
+  > ctrl + r : 파일 내에 키워드 일괄 수정
+  > ctrl + shift + r : 프로젝트 내에 키워드 일괄 수정
+  
+2. 자동 정렬
+  > ctrl + alt + l
+
+

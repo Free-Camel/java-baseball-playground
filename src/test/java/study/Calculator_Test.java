@@ -17,10 +17,10 @@ public class Calculator_Test {
 
     @Test
     void functionTest(){
-        assertThat(calculator.add(1,3)).isEqualTo(4);
-        assertThat(calculator.sub(1,3)).isEqualTo(-2);
-        assertThat(calculator.mul(1,3)).isEqualTo(3);
-        assertThat(calculator.div(1,3)).isEqualTo(0);
+        assertThat(calculator.plus(1,3)).isEqualTo(4);
+        assertThat(calculator.minus(1,3)).isEqualTo(-2);
+        assertThat(calculator.multiply(1,3)).isEqualTo(3);
+        assertThat(calculator.divide(1,3)).isEqualTo(0);
 
     }
 
